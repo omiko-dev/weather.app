@@ -1,0 +1,31 @@
+
+section
+{
+  margin: 30px 0;
+  width: 480px;
+  height: 191.25px;
+}
+
+div
+{
+
+  padding: 13px 0;
+  cursor: pointer;
+  transition: 0.4s ease;
+
+}
+
+div:hover
+{
+  background-color: #00000032;
+}
+
+h3
+{
+  color: var(--black-gray);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+

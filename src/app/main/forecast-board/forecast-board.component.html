@@ -1,0 +1,21 @@
+
+<section>
+
+  <main>
+    <h1>{{ TempData ? TempData.temp_c + ' °': '- °'}}</h1>
+  </main>
+
+  <div class="city">
+    <h1>{{ LocationData }}</h1>
+    <h2>{{ TempData ? TempData.last_updated : '-'}}</h2>
+  </div>
+
+  <div class="icon">
+    <span>
+      <img [src]="TempData ? TempData.condition.icon : '-'" alt="">
+    </span>
+
+    <h3>{{ TempData ? TempData.condition.text : '-'}}</h3>
+
+  </div>
+</section>

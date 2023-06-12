@@ -1,0 +1,64 @@
+
+
+*
+{
+  color: #fff;
+}
+
+section
+{
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  h1
+  {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 130px;
+  }
+  
+  .city
+  {
+  
+    h1
+    {
+      font-family: 'roboto', sans-serif;
+      font-weight: 400;
+      font-size: 60px;
+    }
+  
+    h2
+    {
+      font-family: 'roboto', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+
+  .icon
+  {
+
+
+    span
+    {
+      font-size: 60px;
+      padding-top: 8px;
+    }
+
+    h3
+    {
+
+
+
+      font-family: 'roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+  }
+
+
+}
+

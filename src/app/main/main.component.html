@@ -1,0 +1,16 @@
+
+
+<section>
+
+
+  <main>
+    <h5>the.weather</h5>
+
+    <app-forecast-board [TempData]="tempData"  [LocationData]="locationData"/>
+  </main>
+
+  <app-info (tempEmit)="tempExport($event)"  (locatioinEmit)="locationExport($event)"/>
+
+</section>
+
+

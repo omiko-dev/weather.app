@@ -1,0 +1,64 @@
+section {
+  width: 600px;
+  height: 100%;
+  background-color: rgba(150, 150, 150, 0.305);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section main {
+  width: 80%;
+  height: 90%;
+  position: absolute;
+}
+section main hr {
+  background-color: var(--black-gray);
+}
+section main .input {
+  margin: 24px 0 0 0;
+  position: relative;
+}
+section main label {
+  position: absolute;
+  left: 0;
+  font-size: 21px;
+  transition: 0.5s ease;
+  font-family: "Roboto", sans-serif;
+  color: var(--black-gray);
+}
+section main input {
+  z-index: 1;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #747474;
+  color: white;
+  padding: 0px 10px 7px 1px;
+  position: relative;
+}
+section main input[type=text]:focus ~ label {
+  font-size: 15px;
+  transform: translateY(-16px);
+}
+section main .valid {
+  font-size: 15px;
+  transform: translateY(-16px);
+}
+section main span {
+  padding: 20px;
+  position: absolute;
+  top: -33px;
+  background: rgba(235, 120, 5, 0.9019607843);
+  margin-left: 18px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+section main span:hover {
+  background: rgba(163, 83, 3, 0.9019607843);
+}
+section main i {
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+}

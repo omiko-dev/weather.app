@@ -1,0 +1,21 @@
+<section>
+
+  <main>
+    <div class="input">
+      <input type="text" [(ngModel)]="SearchWord" >
+      <label for="location" [ngClass]="SearchWord != '' ? 'valid' : '' ">Another location</label>
+      <i *ngIf="errorSMG">Not Found</i>
+
+      <span class="material-symbols-outlined" (click)="searchCity(SearchWord)">
+        search
+      </span>
+    </div>
+
+    <app-history [Citys]="SearchedCity" (cityEmit)="oldCity($event)"/>
+
+    <hr>
+
+    <app-weather-details [Data]="$temp"/>
+  </main>
+
+</section>

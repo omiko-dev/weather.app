@@ -1,13 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
-:root
-{
+:root {
   --black-gray: #434343;
-  --white-gray: #dadada
+  --white-gray: #dadada ;
 }
 
-*
-{
+* {
   margin: 0;
   padding: 0;
 }

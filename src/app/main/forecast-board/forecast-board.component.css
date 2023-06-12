@@ -1,0 +1,33 @@
+* {
+  color: #fff;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section h1 {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 130px;
+}
+section .city h1 {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+section .city h2 {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+section .icon span {
+  font-size: 60px;
+  padding-top: 8px;
+}
+section .icon h3 {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
